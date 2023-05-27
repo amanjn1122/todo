@@ -32,7 +32,9 @@ export const AddTodo = (props) => {
                 </div> */}
             </div>
             <div className="mb-3">
-                <label htmlFor="desc" className="form-label">Description</label>
+                <label htmlFor="desc" className="form-label">
+                    Description
+                </label>
                 <input type="text" value={desc} onChange={(e)=>{setdesc(e.target.value)}} className="form-control" id="desc"/>
             </div>
             {/* <div className="mb-3 form-check">
